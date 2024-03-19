@@ -46,7 +46,7 @@ namespace ConsoleAppÁrea
                     double b2 = double.Parse(Console.ReadLine());
                     Console.Write("Qual o tamnho da altura em metros: ");
                     double alt = double.Parse(Console.ReadLine());
-                    result = (b1 * b2)*alt / 2;
+                    result = (b1 + b2)*alt / 2;
                     Console.Write("O resultado da área será: " + result);
                     break;
                 default:
